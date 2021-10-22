@@ -78,7 +78,7 @@ to clone the gRPC repository at the [latest stable release tag](https://github.c
 ## Windows
 
 ```
-> git clone -b RELEASE_TAG_HERE https://github.com/grpc/grpc
+> git clone --recurse-submodules -b RELEASE_TAG_HERE https://github.com/grpc/grpc
 > cd grpc
 > git submodule update --init
 ```
